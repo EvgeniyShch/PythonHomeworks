@@ -10,7 +10,5 @@ print(f"Введенное Вами количество {userseconds} секу�
 
 
 import time
-#localtime = time.asctime( time.localtime(time.time()) )
-
-localtime = time.clock_gettime(userseconds)
+localtime = time.asctime( time.localtime(time.time()) )
 print ("Local current time :", localtime)
