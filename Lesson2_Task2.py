@@ -22,5 +22,4 @@ print(list1, "- измененный массив через цикл while")
 # решение через цикл for 
 for el in range(1, countoflist, 2):
     list1[el-1], list1[el] = list1[el], list1[el-1]
-
 print(list1, "- измененный массив через цикл for")
