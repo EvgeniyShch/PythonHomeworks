@@ -1,0 +1,27 @@
+print("Данная программа выводит сумму чисел введенных через пробел")
+print("При нажатии Enter будет выводиться сумма чисел")
+list_summa =[]
+
+while True:
+    try:
+        
+        numbers = input("Введите числа через пробел, для выхода введите q\n")
+        list1 = numbers.split(" ")
+        if "q" in list1:
+            list1.pop(len(list1)-1)
+            for i in range(len(list1)):
+                list1[i] = int(list1[i])
+            summa = sum(list1)
+            list_summa.append(summa)
+            break
+        else:
+            for i in range(len(list1)):
+                list1[i] = int(list1[i])
+            summa = sum(list1)
+            list_summa.append(summa)
+        print(f'Текущая сумма чисел = {sum(list_summa)}')
+    except Exception as error1:
+        print("Ошибка!", error1)
+        break
+        
+print(f'Программа завершена, итоговая сумма всех чисел = {sum(list_summa)}')
