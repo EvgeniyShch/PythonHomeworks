@@ -5,7 +5,7 @@ life_stage = cycle(['Infant', 'Child', 'Teenager', 'Adult', 'Old', 'Rebirth'])
 while True:
     try:
         a = int(input("Введите целое число от 1 до 5\n"))
-        if a > 0 and a < 5:
+        if a > 0 and a <= 5:
             break
         else:
             print("Число должно быть от 1 до 5")
