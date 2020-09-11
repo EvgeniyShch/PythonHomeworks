@@ -1,0 +1,6 @@
+Informatics : 100(lecture) 50(seminar) 20(laboratory)
+Physics : 30(lecture) - 10(laboratory)
+Sport : - 30(seminar) -
+Maths : - 100(seminar) 100(laboratory)
+English : 60(lecture) 70(seminar) -
+Russian : 60(lecture) 30(seminar) -
