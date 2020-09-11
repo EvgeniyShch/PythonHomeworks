@@ -1,0 +1,5 @@
+Ivanov 55500.50
+Petrov 15000.00
+Kedrov 10000
+Alexandrov 80000
+Lobanov 100000.45
