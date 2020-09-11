@@ -1,0 +1,9 @@
+Create a
+text file
+(not programmatically),
+save several lines in it,
+do count
+number of lines,
+word count
+in
+each line.
